@@ -1,0 +1,164 @@
+body{
+    padding:2%;
+    background-color:white;
+    font-family:verdana;
+}
+
+a{
+    color:white;
+    text-decoration:none;
+}
+
+.oscuro{
+    color:red;
+}
+
+header{
+    margin:-4%;
+    padding:4%;
+    width:100%;
+    height:40px;
+    color:white;
+    font-size:28px;
+    background:linear-gradient(to bottom, rgb(96, 96, 235), rgb(60, 60, 230));
+}
+
+#titulo{
+    margin-top:-12%;
+    margin-left:15%;
+}
+
+#menu{
+    width:70%;
+    height:700px;
+    background:linear-gradient(to bottom, rgb(96, 96, 235), rgb(60, 60, 230));
+    margin-top:3.5%;
+    box-shadow:1px 10px 10px gray;
+    /*margin-left:-4%;*/
+    margin-left:-98%;
+    padding:7%;
+    z-index:1;
+    position:fixed;
+    color:white;
+    font-size:23px;
+}
+
+#informacion{
+    width:70%;
+    height:700px;
+    background:linear-gradient(to bottom, rgb(102, 102, 241), rgb(66, 66, 247));
+    margin-top:3.5%;
+    /*margin-left:-4%;*/
+    margin-left:-98%;
+    padding:7%;
+    z-index:2;
+    position:fixed;
+    color:white;
+    font-size:23px;
+}
+
+#contenedor_compartir{
+    /*box-shadow:0px 0px 20px gray;*/
+    text-shadow:0px 0px 20px gray;
+    font-size:23px;
+    color:white;
+    width:68%;
+    height:250px;
+    /*margin-top:100%;*/
+    margin-top:170%;
+    margin-left:-4%;
+    padding:8%;
+    background:linear-gradient(to bottom, rgb(102, 102, 241), rgb(86, 86, 250));
+    z-index:3;
+    position:fixed;
+}
+
+.contactos{
+    width:15%;
+    border-radius:10px;
+    box-shadow:0px 1px 10px gray;
+}
+
+#salir_menu{
+    display:none;
+}
+
+p:hover{
+    transform:scale(1.1);
+}
+
+#consola{
+    margin-top:10%;
+    margin-left:0%;
+    width:95%;
+    height:100px;
+    padding-top:5%;
+    padding-left:4%;
+    padding-bottom:-5%;
+    font-size:50px;
+    color:black;
+    background:linear-gradient(to bottom, white, rgb(229, 226, 226));
+    border:2px solid rgb(201, 199, 199);
+    box-shadow:0px 0px 2px rgb(170, 168, 168);
+    overflow-x:scroll;
+}
+
+#c{
+    margin-top:4%;
+    margin-left:3%;
+    width:44%;
+    height:70px;
+    font-size:30px;
+    background-color:white;
+    color:red;
+    border:2px solid red;
+    border-radius:5px;
+}
+
+#c:hover{
+    background-color:red;
+    color:white;
+}
+
+.botones{
+    margin-top:4%;
+    margin-left:3%;
+    width:20%;
+    height:70px;
+    font-size:30px;
+    color:blue;
+    background-color:white;
+    border:0px solid blue;
+    background:linear-gradient(to bottom, white, rgb(245, 243, 243));
+    box-shadow:0px 0px 5px rgb(170, 168, 168);
+}
+
+.botones:hover{
+    font-size:32px;
+}
+
+.modos_personalizacion{
+    margin-left:10%;
+    font-size:18px;
+    display:none;
+}
+
+#salir{
+    margin-top:40%;
+}
+
+#igual{
+    margin-top:4%;
+    margin-left:3%;
+    width:68%;
+    height:70px;
+    font-size:30px;
+    color:white;
+    background:linear-gradient(to bottom, rgb(96, 96, 235), rgb(60, 60, 230));
+    border:1px solid rgb(0, 217, 255);
+    border-radius:10px;
+}
+
+#igual:hover{
+    border-radius:5px;
+}
